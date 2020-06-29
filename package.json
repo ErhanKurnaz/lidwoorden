@@ -1,0 +1,17 @@
+{
+    "name": "lidwoorden",
+    "version": "1.0.0",
+    "description": "TODO",
+    "main": "index.js",
+    "repository": "https://github.com/ergang2000/lidwoorden.git",
+    "author": "Erhan Kurnaz",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.19.2",
+        "cheerio": "^1.0.0-rc.3",
+        "esm": "^3.2.25"
+    },
+    "scripts": {
+        "dev": "node -r esm index.js"
+    }
+}
