@@ -1,4 +1,4 @@
-import { getHtml, getDeOfHet } from './lib/scraper'
+const { getHtml, getDeOfHet } = require('./lib/scraper')
 
 async function go() {
     const html = await getHtml(`https://www.welklidwoord.nl/${process.argv[2] || ''}`)

@@ -8,10 +8,9 @@
     "license": "MIT",
     "dependencies": {
         "axios": "^0.19.2",
-        "cheerio": "^1.0.0-rc.3",
-        "esm": "^3.2.25"
+        "cheerio": "^1.0.0-rc.3"
     },
     "scripts": {
-        "dev": "node -r esm index.js"
+        "dev": "node index.js"
     }
 }
